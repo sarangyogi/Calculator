@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock And Calculator</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="clock">
+        <div id="digitalClock"></div>
+    </div>
+    <div id="calculator">
+        <table border="1" tabindex="1" id="tablecolor">
+            <tr>
+                <th colspan="4" id="result"></th>
+                <th id="reset">AC</th>
+            </tr>
+            <tr>
+                <td class="val">1</td>
+                <td class="val">2</td>
+                <td class="val">3</td>
+                <td class="val">+</td>
+                <td class="val">(</td>
+            </tr>
+            <tr>
+                <td class="val">4</td>
+                <td class="val">5</td>
+                <td class="val">6</td>
+                <td class="val">-</td>
+                <td class="val">)</td>
+            </tr>
+            <tr>
+                <td class="val">7</td>
+                <td class="val">8</td>
+                <td class="val">9</td>
+                <td class="val">*</td>
+                <td class="val">,</td>
+            </tr>
+            <tr>
+                <td class="val">/</td>
+                <td class="val">0</td>
+                <td class="val">.</td>
+                <td class="val">e</td>
+                <td class="val">%</td>
+            </tr>
+            <tr>
+                <td class="math">sqrt</td>
+                <td class="math">PI</td>
+                <td id="delete" colspan="2">Del</td>
+                <td id="solution">=</td>
+            </tr>
+            <tr>
+                <th colspan="5" id="Mathematical">Mathematical Functions</th>
+            </tr>
+            <tr id="extra">
+                <td class="math">sin</td>
+                <td class="math">cos</td>
+                <td class="math">tan</td>
+                <td class="math">log</td>
+                <td class="math">pow</td>
+            </tr>
+        </table>
+    </div>
+    <div id="changecolor">
+        <div class="circle" style="background-color: rgb(224, 132, 132);"></div>
+        <div class="circle" style="background-color: rgba(255, 255, 0, 0.363);"></div>
+        <div class="circle" style="background-color: violet;"></div>
+        <div class="circle" style="background-color: rgb(101, 189, 101);"></div>
+    </div>
+    <footer>Created using HTML,CSS & JavaScript</footer>
+    <script src="/index.js"></script>
+</body>
+</html>
